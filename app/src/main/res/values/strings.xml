@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Warehouse</string>
+    <string name="nav_products">Товары</string>
+    <string name="nav_employees">Сотрудники</string>
+    <string name="nav_suppliers">Поставщики</string>
+    <string name="nav_carriers">Перевозчики</string>
+    <string name="nav_warehouses">Склады</string>
+    <string name="nav_documents">Документы</string>
+    <string name="nav_settings">Настройки</string>
+    <string name="nav_logout">Выход</string>
+    <string name="products">Товары</string>
+    <string name="employees">Сотрудники</string>
+    <string name="suppliers">Поставщики</string>
+    <string name="carriers">Перевозчики</string>
+    <string name="warehouses">Склады</string>
+    <string name="documents">Документы</string>
+    <string name="settings">Настройки</string>
+    <string name="no_data">Нет данных</string>
+    <string name="save">Сохранить</string>
+    <string name="name">Название</string>
+    <string name="full_name">ФИО</string>
+    <string name="position">Должность</string>
+    <string name="phone">Телефон</string>
+    <string name="email">Email</string>
+    <string name="inn">ИНН</string>
+    <string name="license">Лицензия</string>
+    <string name="address">Адрес</string>
+    <string name="price">Цена</string>
+    <string name="quantity">Количество</string>
+    <string name="barcode">Штрих-код</string>
+    <string name="type">Тип документа</string>
+    <string name="date">Дата</string>
+    <string name="status">Статус</string>
+    <string name="theme">Тема</string>
+    <string name="language">Язык</string>
+    <string name="notifications">Уведомления</string>
+    <string name="add_product">Добавить товар</string>
+    <string name="scan_barcode">Сканировать штрих-код</string>
+    <string name="required_fields">Заполните обязательные поля</string>
+    <string name="invalid_format">Некорректный формат</string>
+    <string name="saved">Сохранено</string>
+    <string name="deleted">Удалено</string>
+</resources>

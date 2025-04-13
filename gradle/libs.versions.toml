@@ -1,0 +1,28 @@
+[versions]
+agp = "8.9.1" # Обновлено для поддержки новых API и стабильности
+kotlin = "2.0.20" # Добавлено для Kotlin
+appcompat = "1.7.0" # Обновлено
+material = "1.12.0" # Обновлено
+activity = "1.9.3" # Обновлено
+constraintlayout = "2.1.4"
+recyclerview = "1.3.2" # Обновлено
+junit = "4.13.2"
+junitVersion = "1.2.1"
+ext-junit = "1.2.1" # Обновлено
+espresso-core = "3.6.1" # Обновлено
+
+[libraries]
+kotlin-stdlib = { module = "org.jetbrains.kotlin:kotlin-stdlib", version.ref = "kotlin" } # Добавлено
+appcompat = { module = "androidx.appcompat:appcompat", version.ref = "appcompat" }
+material = { module = "com.google.android.material:material", version.ref = "material" }
+activity = { module = "androidx.activity:activity", version.ref = "activity" }
+constraintlayout = { module = "androidx.constraintlayout:constraintlayout", version.ref = "constraintlayout" }
+recyclerview = { module = "androidx.recyclerview:recyclerview", version.ref = "recyclerview" }
+junit = { group = "junit", name = "junit", version.ref = "junit" }
+ext-junit = { group = "androidx.test.ext", name = "junit", version.ref = "junitVersion" }
+espresso-core = { module = "androidx.test.espresso:espresso-core", version.ref = "espresso-core" }
+zxing = { module = "com.journeyapps:zxing-android-embedded", version = "4.3.0" } # Добавлено для удобства
+
+[plugins]
+android-application = { id = "com.android.application", version.ref = "agp" }
+kotlin-android = { id = "org.jetbrains.kotlin.android", version.ref = "kotlin" } # Добавлено
